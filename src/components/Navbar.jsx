@@ -15,7 +15,7 @@ const Navbar = () => {
             
                 <ul className="flex list-none gap-8 m-0 p-0">
                     <li>
-                        <a href="#" className="text-white no-underline text-base hover:text-[#6495ED]">Home</a>
+                        <a href="/" className="text-white no-underline text-base hover:text-[#6495ED]">Home</a>
                     </li>
                     <li>
                         <a href="#" className="text-white no-underline text-base hover:text-[#6495ED]">AboutUs</a>

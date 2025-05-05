@@ -1,8 +1,13 @@
+import { useLocation } from "react-router-dom";
 import AboutUwa from "./AboutUwa";
+import Faqs from "./Faqs";
 import Features from "./Features";
+import Feedback from "./Feedback";
+import Footer from "./Footer";
 import Herosection from "./Herosection";
 import Howitworks from "./Howitworks";
 import Navbar from "./Navbar";
+import { useEffect } from "react";
 
 const Home = () => {
     return (
@@ -12,6 +17,9 @@ const Home = () => {
             <Features />
             <Howitworks />
             <AboutUwa />
+            <Faqs />
+            <Feedback/>
+            <Footer />
         </div>
     );
 };
