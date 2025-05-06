@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Herosection = () => {
     return (
@@ -23,9 +24,7 @@ const Herosection = () => {
                     <button className="bg-[#6495ED] text-white px-6 py-3 rounded-md border-2 border-transparent text-base font-medium hover:bg-[#032B44] hover:text-white transition cursor-pointer transform hover:scale-105 duration-300 animate-fade-in delay-200">
                         Book a Demo
                     </button>
-                    <button className="bg-transparent text-white border-2 border-[#06486e] px-6 py-3 rounded-md text-base font-medium hover:bg-[#6495ED] hover:text-white transition cursor-pointer transform hover:scale-105 duration-300 animate-fade-in delay-200">
-                        Try it Now
-                    </button>
+                    <button className="bg-transparent text-white border-2 border-[#06486e] px-6 py-3 rounded-md text-base font-medium hover:bg-[#6495ED] hover:text-white transition cursor-pointer transform hover:scale-105 duration-300 animate-fade-in delay-200"><Link to="/signup" className="text-white">Try it Now</Link></button>
                 </div>
 
                 <style>
