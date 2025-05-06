@@ -23,7 +23,7 @@ const Features = () => {
     return (
         <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold text-[#04203A]">Uwa Features</h1>
+                <h1 className="text-4xl font-bold text-[#04203A]">UWA Features</h1>
                 <p className="mt-4 text-lg text-gray-600">Simplify your crypto experience with a single, human-readable address for all transactions.</p>
             </div>
 

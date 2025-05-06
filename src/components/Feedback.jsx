@@ -45,7 +45,7 @@ const Feedback = () => {
                             placeholder="Share your thoughts..."
                         ></textarea>
                     </div>
-                    <button type="submit" className="w-full bg-indigo-600 text-white p-2 rounded-md hover:bg-indigo-700 transition duration-300">
+                    <button type="submit" className="w-full bg-[#6495ED] text-white p-2 rounded-md hover:bg-[#6a93df] transition duration-300">
                         Submit Feedback
                     </button>
                 </form>

@@ -1,4 +1,5 @@
 import logo from "../assets/images/unius logo png white 1.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -10,7 +11,7 @@ const Navbar = () => {
                         alt = "logo"
                         className="h-12"
                     />
-                    <div className="text-2xl md:text-3xl font-Montserrat ml-[-12px]">UWA</div>
+                    <div className="text-2xl md:text-xl font-Montserrat ml-[-12px]">UWA</div>
                 </div>
             
                 <ul className="flex list-none gap-8 m-0 p-0">
@@ -27,7 +28,7 @@ const Navbar = () => {
                         <a href="#" className="text-white no-underline text-base hover:text-[#6495ED]">Docs</a>
                     </li>
                 </ul>
-                <button className="bg-transparent text-white border-2 border-[#06486e] py-2 px-4 rounded-md text-base cursor-pointer hover:bg-[#6495ED] hover:text-white transition">Get Started</button>
+                <button className="bg-transparent text-white border-2 border-[#06486e] py-2 px-4 rounded-md text-base cursor-pointer hover:bg-[#6495ED] hover:text-white transition"><Link to="/signup" className="text-white">Get Started</Link></button>
             </div>
         </nav>
     );
