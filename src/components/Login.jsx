@@ -29,7 +29,7 @@ const Login = () => {
         }
 
         const users = JSON.parse(localStorage.getItem('users')) || [];
-        const user = users.find(user => user.user.companyEmail === companyEmail);
+        const user = users.find(user => user.companyEmail === companyEmail);
 
         if (!user) {
             setError('No account found with this email.');
